@@ -1,0 +1,16 @@
+{
+  "package": "com.trails.board.multilang",
+  "versionName": "10.0",
+  "versionCode": 10,
+  "languages": [
+    "zh-CN",
+    "en",
+    "ja"
+  ],
+  "sha256": "635227216b97c1a1edc19c19b6a9e054d0a195e9a11ba66804beffedbb7dc998",
+  "bytes": 193418,
+  "quests": 87,
+  "inGameAchievements": 178,
+  "steamAchievements": 43,
+  "translatedStrings": 1560
+}

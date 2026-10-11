@@ -1,0 +1,47 @@
+{
+"boardIntro": [
+"一格一件委托，点击查看详情，左侧圆环显示章节完成度。角标是这件委托在全篇 {steps} 步攻略中的位置，其中也包含买书和协会手续等流程。有选择分支的委托会标出选项数量；全部 {choices} 组选项可在「选项总览」查看。",
+"Each tile opens one quest; the ring shows chapter progress. The corner number is its position in the full {steps}-step guide, which also includes books and guild procedures. Quests with choices show their group count. Browse all {choices} groups under All choices.",
+"1マスが1件の依頼です。押すと詳細が開き、円環は章の達成率を示します。角の数字は全{steps}手順の攻略順で、書籍購入や協会の手続きも含みます。分岐のある依頼には選択肢の組数を表示。全{choices}組は「選択肢一覧」で確認できます。"
+],
+"choicesIntro": [
+"共有 {total} 组选项：{linked} 组关联 {quests} 件委托，{scene} 组是对话、搭乘、钓鱼和通缉魔兽等场景交互。★ 标出 {recommended} 组推荐选项及理由；未涉及 BP 的选项通常只影响台词。",
+"There are {total} choice groups: {linked} groups belong to {quests} quests, and {scene} cover conversations, travel, fishing, and wanted monsters. ★ marks {recommended} recommended groups with explanations. Choices without a BP effect usually only change dialogue.",
+"全{total}組の選択肢のうち、{linked}組は{quests}件の依頼に対応し、{scene}組は会話・移動・釣り・手配魔獣などの場面です。★は推奨する{recommended}組と理由を示します。BPに影響しない選択肢は、通常は台詞だけが変わります。"
+],
+"systemMenus": ["组　　已剔除系统菜单 {n} 组（购物／休息／存档等）", "groups · {n} system menus excluded (shops, rest, saves)", "組　システムメニュー{n}組を除外（買い物・休憩・セーブなど）"],
+"gameIntro": [
+"冒险者手册中共有 {total} 项游戏内成就，分组和达成条件与原版数据一致。点击方格标记已达成；进度只保存在本机，与委托进度分别记录。顶部搜索框也能筛选成就。",
+"The adventurer's notebook contains {total} in-game achievements, with the original groups and requirements. Click a box to mark an achievement. Progress is saved on this device separately from quests. Use the search box to filter achievements.",
+"冒険者手帳のゲーム内実績は全{total}項目です。分類と達成条件は元のデータに従っています。四角を押すと達成を記録できます。進捗は依頼とは別に端末内へ保存。検索欄で実績も絞り込めます。"
+],
+"steamIntro": [
+"Steam 版（AppID 3375780）共有 {total} 项成就。右侧百分比是原版记录的全球解锁率快照，并非实时更新；数值越低通常越稀有。点击方格标记已获得，进度只保存在本机。",
+"Steam (AppID 3375780) has {total} achievements. Percentages are the original app's snapshot of global unlock rates, not live data; lower values generally mean rarer achievements. Click a box to track achievements locally on this device.",
+"Steam版（AppID 3375780）の実績は全{total}項目です。右の割合は元のアプリに収録された世界全体の解除率で、リアルタイム更新ではありません。低いほど通常は希少です。四角を押して端末内に達成を記録できます。"
+],
+"moreEntries": ["还有 {n} 条手册记录，切到「环节」看完整流程。", "There are {n} more notebook entries. Open Steps for the complete walkthrough.", "手帳の記録があと{n}件あります。「進行手順」で全体の流れを確認できます。"],
+"branches": [
+"琥珀色圆点的环节含多段文本，表示不同打法或顺序可能触发不同内容。{hint}",
+"Steps with amber dots contain multiple entries: different tactics or sequences may lead to different text. {hint}",
+"琥珀色の点が付いた手順には複数の記録があり、戦い方や順序によって内容が変わる場合があります。{hint}"
+],
+"branchAvailable": ["切到「选项」页查看这件委托的选择分支。", "Open Choices to see this quest's branches.", "「選択肢」でこの依頼の分岐を確認できます。"],
+"branchMissing": ["也可以在侧栏「选项总览」按章节查找。", "You can also browse All choices by chapter.", "サイドバーの「選択肢一覧」で章別に探すこともできます。"],
+"noChoices": [
+"这件委托可能没有选择分支，或选项属于共用场景，未能准确关联到这件委托。可在「选项总览」按章节查看。",
+"This quest may have no choice branch, or its choices may belong to a shared event that could not be reliably linked to it. Browse All choices by chapter.",
+"この依頼には分岐がないか、共通イベントの選択肢を確実に関連付けられなかった可能性があります。「選択肢一覧」で章別に確認できます。"
+],
+"choicesBonus": [
+"以下 {n} 组选项按游戏出现顺序排列。该委托的 BP 为 {bp}，全部答对另加 {bonus}。★ 标出推荐选法，理由列在选项下方。",
+"These {n} choice groups follow their in-game order. This quest awards {bp} BP, plus {bonus} for all correct answers. ★ marks recommended answers, with reasons below.",
+"以下の{n}組はゲーム内の順序で並んでいます。この依頼はBP {bp}、全問正解でさらに +{bonus}。★が推奨回答で、その下に理由を示します。"
+],
+"choicesBp": [
+"以下 {n} 组选项按游戏出现顺序排列。「BP {bp}」表示该组选项参与 BP 判定，数值对应本件委托的 BP。",
+"These {n} groups follow their in-game order. The BP {bp} badge identifies choices involved in BP checks; the number is this quest's BP award.",
+"以下の{n}組はゲーム内の順序で並んでいます。「BP {bp}」はBP判定に関わる選択肢を示し、数値はこの依頼のBPです。"
+],
+"choicesNoBp": ["以下 {n} 组选项按游戏出现顺序排列，都不影响 BP，只影响台词。", "These {n} groups follow their in-game order. They do not affect BP, only dialogue.", "以下の{n}組はゲーム内の順序で並んでいます。BPには影響せず、台詞だけが変わります。"]
+}

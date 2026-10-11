@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: O=YUCAII, CN=Trails Board
+Signer #1 certificate SHA-256 digest: e276bd2e1d5fc80a6cc45fcdf93cddce10812b70992ebfb1b3ca074b8fb3a62d
+Signer #1 certificate SHA-1 digest: 2f71901254db4130361d63a84a04d4b0ff27d282
+Signer #1 certificate MD5 digest: 76da9d24eadca4ccf5a1c6e0e6882948
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: b04feaac8753531fc57fbc40914fb6d37cc7ea5a7d626c3c45dfff36183c8b8a
+Signer #1 public key SHA-1 digest: 5297751c8afda151e2dff213f75d945ffae7ca34
+Signer #1 public key MD5 digest: 50f24a9204a8be26dd8030b5da14f416

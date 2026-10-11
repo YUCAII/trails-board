@@ -1,0 +1,28 @@
+/* Room for all three languages, including narrow phones and longer English text. */
+.topbar { height: 72px; gap: 16px; }
+.shell { height: calc(100% - 72px); }
+.brand { white-space: normal; line-height: 1.2; }
+.search { min-width: 100px; }
+.language-picker { display:flex; align-items:center; gap:6px; flex:none; font-size:12px; }
+.language-picker select { max-width:112px; padding:6px 5px; border:1px solid #B49B75; background:#FFF8E8; color:#4A3A26; border-radius:3px; font:inherit; }
+.crystal .nm .ti { white-space:normal; overflow-wrap:anywhere; }
+.tabs-kind button { min-width:0; }
+.plate .txt, .plate-next, .av-main, .ch-src { min-width:0; }
+.plate-id .sub, .plate-next b, .card h3, .card .who, .av-name, .av-desc, .ch-why, .ch-place, .ch-link, .raw, .step p, .facts dd { overflow-wrap:anywhere; }
+.ledger-tabs { overflow-x:auto; }
+.ledger-tabs button { flex:1 0 auto; }
+.drawer .act .btn { padding-left:10px; padding-right:10px; white-space:normal; }
+.av-modes { flex-wrap:wrap; }
+.ch-items .chip { white-space:normal; }
+@media (max-width:760px) {
+  .topbar { display:grid; grid-template-columns:minmax(0,1fr) auto 36px; grid-template-areas:"brand language progress" "search search search"; height:100px; padding:8px 12px; gap:6px 8px; }
+  .brand { grid-area:brand; font-size:14px; letter-spacing:.01em; }
+  .search { grid-area:search; width:100%; height:34px; }
+  .language-picker { grid-area:language; }
+  .language-picker span { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+  .language-picker select { width:86px; max-width:86px; }
+  .progress { grid-area:progress; margin-left:0; }
+  .shell { height:calc(100% - 100px); }
+  .drawer .act { gap:5px; }
+  .drawer .act .btn { font-size:12px; }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "trails-board",
+  "version": "10.0.0",
+  "private": true,
+  "description": "Offline Chinese, English and Japanese quest ledger for Android",
+  "scripts": {
+    "build:web": "python tools/build_web.py",
+    "test": "node tools/test_i18n.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}

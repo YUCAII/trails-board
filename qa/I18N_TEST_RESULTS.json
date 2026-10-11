@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "Catalogue: 1560 × 2 exact translations",
+    "en: all 87 quests × 4 tabs, 5 chapters, choices, 178 + 43 achievements, searches",
+    "ja: all 87 quests × 4 tabs, 5 chapters, choices, 178 + 43 achievements, searches",
+    "zh: all 87 quests × 4 tabs, 5 chapters, choices, 178 + 43 achievements, searches",
+    "Main/side/incomplete filters apply on the all-chapters board",
+    "Cross-language search, language persistence, independent progress stores, active drawer/tab preservation, unchanged source data"
+  ]
+}
