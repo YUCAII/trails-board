@@ -6,7 +6,11 @@
 An offline quest, choice and achievement companion for *Trails in the Sky 1st Chapter*.
 『空の軌跡 the 1st』の依頼・選択肢・実績を確認できるオフライン攻略ツールです。
 
-[下载 APK / Download APK / APKをダウンロード](https://github.com/YUCAII/trails-board/releases/download/v10.0/trails_board_v10_multilang.apk) · [v10.0 Release](https://github.com/YUCAII/trails-board/releases/tag/v10.0) · [构建说明 / Build / ビルド](docs/BUILD.md)
+> **🆕 v15.0（2026-10-18）— 全新中文版上线**：选项台账全覆盖（87 件全部有明确交代）、战技·魔法全表 123 条、资料库 8 分区（宝箱 / 怪物 / 商店 / 料理 / 支援 / 战斗系统 / 战技魔法 / 小游戏）。
+> [下载 trails_board_v15.apk](https://github.com/YUCAII/trails-board/releases/download/v15.0/trails_board_v15.apk) · [v15.0 Release 说明](https://github.com/YUCAII/trails-board/releases/tag/v15.0)
+> 与下方 v10 多语言版相互独立，可共存安装（包名与签名均不同）。
+
+[下载 v10 APK / Download v10 APK](https://github.com/YUCAII/trails-board/releases/download/v10.0/trails_board_v10_multilang.apk) · [v10.0 Release](https://github.com/YUCAII/trails-board/releases/tag/v10.0) · [构建说明 / Build / ビルド](docs/BUILD.md)
 
 | 中文 | English | 日本語 |
 | --- | --- | --- |
